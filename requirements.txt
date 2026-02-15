@@ -1,0 +1,4 @@
+kivymd==2.0.0.dev
+//command to install
+pip install kivymd==2.0.0
+
