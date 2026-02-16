@@ -16,7 +16,7 @@ MDScreen:
     MDRelativeLayout:
     
         MDCard:
-            pos_hint: {"center_x": .22, "center_y": .95}
+            pos_hint: {"center_x": .22, "center_y": .92}
             size_hint: None, None
             size: dp(40), dp(40)
             radius: [50]
@@ -31,7 +31,7 @@ MDScreen:
             text: "Welcome Back"
             spacing: "8dp"
             text_color: "grey"
-            pos_hint: {"center_x": .32, "center_y": .94}
+            pos_hint: {"center_x": .33, "center_y": .92}
             halign: "center"
             bold: True
             adaptive_height: True
@@ -42,11 +42,11 @@ MDScreen:
             pos_hint: {"center_x": .5, "center_y": .67}
             padding: dp(40)
             size_hint: None, None
-            size: dp(500), dp(250)
+            size: dp(500), dp(230)
             theme_bg_color: "Custom"
             md_bg_color: 1, 1, 1, 1
-            padding: 8
-            spacing: 8
+            padding: 9
+            spacing: 9
 
             MDRelativeLayout:
 
@@ -60,7 +60,7 @@ MDScreen:
                     text: "Account balance"
                     spacing: "8dp"
                     text_color: "grey"
-                    pos_hint: {"center_x": .5, "center_y": .65}
+                    pos_hint: {"center_x": .5, "center_y": .68}
                     halign: "center"
                     bold: True
                     adaptive_height: True
@@ -106,6 +106,46 @@ MDScreen:
                     allow_copy: True
                     adaptive_height: True
 
+        MDCard
+            style: "filled"
+            pos_hint: {"center_x": .5, "center_y": .3}
+            padding: dp(40)
+            size_hint: None, None
+            size: dp(500), dp(150)
+            theme_bg_color: "Custom"
+            md_bg_color: 1, 1, 1, 1
+            padding: 8
+            spacing: 8
+
+            MDRelativeLayout:
+    
+                MDCard:
+                    style: "filled"
+                    pos_hint: {"center_x": .1, "center_y": .6}
+                    size_hint: None, None
+                    size: dp(50), dp(50)
+                    radius: [50]
+                    theme_bg_color: "Custom"
+                    md_bg_color: 240/255, 241/255, 243/255, 1
+
+                        
+                    MDIconButton:
+                        icon: "arrow-up-thin"
+                        icon_color: 76/255,76/255,76/255,1
+                        theme_font_size: "Custom"
+                        icon_size: "32sp"
+                        size_hint: None, None
+                        size: "50dp", "50dp"
+                        pos_hint: {"center_x": .54, "center_y": .5}
+
+                MDLabel:
+                    text: "Send"
+                    theme_text_color: "Secondary"
+                    pos_hint: {"center_x": .1, "center_y": .26}
+                    halign: "center"
+                    color:"grey"
+                    bold: True
+                    adaptive_height: True
 
 
 '''
