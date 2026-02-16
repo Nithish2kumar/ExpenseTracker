@@ -5,6 +5,7 @@ from kivy.uix.screenmanager import Screen
 from kivymd.app import MDApp
 from kivymd.uix.card import MDCard
 from kivy.metrics import dp
+from kivymd.uix.label import MDIcon
 from kivymd.font_definitions import theme_font_styles
 
 
@@ -25,6 +26,15 @@ MDScreen:
             MDIconButton:
                 icon: "chevron-left"
                 icon_color: 76/255,76/255,76/255,1
+    
+        MDLabel:
+            text: "Welcome Back"
+            spacing: "8dp"
+            text_color: "grey"
+            pos_hint: {"center_x": .32, "center_y": .94}
+            halign: "center"
+            bold: True
+            adaptive_height: True
 
 
         MDCard:
@@ -79,11 +89,12 @@ MDScreen:
                     color: "grey"
                     pos_hint: {"right": 1, "top": 1}
 
-                MDIconButton:
-                    icon: "clipboard-multiple-outline"
+                MDIcon:
+                    icon: "content-copy"
                     color: "grey"
-                    font_size: "5sp"
-                    pos_hint: {"center_x": .3, "center_y": .4}                
+                    theme_font_size:"Custom"
+                    font_size: "16sp"
+                    pos_hint: {"center_x": .38, "center_y": .37}                
                     
                 MDLabel:
                     text: "1289440585"
@@ -92,6 +103,7 @@ MDScreen:
                     halign: "center"
                     color:"grey"
                     bold: True
+                    allow_copy: True
                     adaptive_height: True
 
 
