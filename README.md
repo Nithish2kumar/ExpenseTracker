@@ -89,11 +89,10 @@ This project uses **KivyMD**, which implements Google's Material Design componen
 ## 📸 Screenshots
 
 *Add screenshots of your app here.*
+![App idea 2](https://github.com/user-attachments/assets/eac6cff8-bd84-45b6-8cc0-c52c47cb8312)
+![App idea 2](https://github.com/user-attachments/assets/cd816e35-8adc-488b-b4e6-f15f5c0128cc)
 
-```
-![App idea 2](https://github.com/user-attachments/assets/3ebd3f0c-9df1-4683-888c-b489a9a6c4f8)
 
-```
 
 ---
 
@@ -133,8 +132,3 @@ Python • KivyMD • UI Development
 
 ⭐ If you like this project, consider giving it a star!
 
-```
-
-If you want, I can also give a **more professional GitHub-style README** with badges, demo GIF, and auto-install commands.
-::contentReference[oaicite:0]{index=0}
-```
