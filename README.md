@@ -1,6 +1,5 @@
 # ExpenseTracker
 An android app to track your expenses in minimalistic UI. Created with python-kivymd
-```md
 # 💰 Expense Tracker App
 
 A modern **Expense Tracker** built using **Python** and **KivyMD** to help users manage daily expenses, track spending habits, and maintain financial awareness with a clean Material Design UI.
@@ -28,25 +27,6 @@ A modern **Expense Tracker** built using **Python** and **KivyMD** to help users
 
 ---
 
-## 📂 Project Structure
-
-```
-
-expense-tracker/
-│
-├── main.py              # Application entry point
-├── main.kv              # UI layout
-├── screens/             # App screens
-├── components/          # Reusable widgets
-├── assets/
-│   ├── icons/
-│   └── images/
-├── requirements.txt
-└── README.md
-
-````
-
----
 
 ## ⚙️ Installation
 
@@ -91,26 +71,8 @@ pip install kivy kivymd
 ## ▶️ Run the Application
 
 ```bash
-python main.py
+python3 main.py
 ```
-
----
-
-## 🔥 Hot Reload (Optional)
-
-Install watchdog:
-
-```bash
-pip install watchdog
-```
-
-Run with auto reload:
-
-```bash
-watchmedo auto-restart --patterns="*.py;*.kv" --recursive -- python main.py
-```
-
----
 
 ## 🎨 UI Framework
 
