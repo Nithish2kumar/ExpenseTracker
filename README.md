@@ -86,11 +86,10 @@ This project uses **KivyMD**, which implements Google's Material Design componen
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots (Design)
 
-*Add screenshots of your app here.*
+⚠️ Note: The screenshot shown below represents a design model (UI concept) used as a reference during development. The final application UI may differ as features are implemented.
 ![App idea 2](https://github.com/user-attachments/assets/eac6cff8-bd84-45b6-8cc0-c52c47cb8312)
-![App idea 2](https://github.com/user-attachments/assets/cd816e35-8adc-488b-b4e6-f15f5c0128cc)
 
 
 
