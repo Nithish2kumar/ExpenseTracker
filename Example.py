@@ -25,7 +25,7 @@ MDScreen:
 
             MDIconButton:
                 icon: "chevron-left"
-                icon_color: 76/255,76/255,76/255,1
+                color: "grey"
     
         MDLabel:
             text: "Welcome Back"
@@ -35,6 +35,18 @@ MDScreen:
             halign: "center"
             bold: True
             adaptive_height: True
+
+        MDCard:
+            pos_hint: {"center_x": .78, "center_y": .92}
+            size_hint: None, None
+            size: dp(40), dp(40)
+            radius: [50]
+            theme_bg_color: "Custom"
+            md_bg_color: 1, 1, 1, 1
+
+            MDIconButton:
+                icon: "bell-outline"
+                color: "grey"
 
 
         MDCard:
@@ -65,7 +77,7 @@ MDScreen:
                     bold: True
                     adaptive_height: True
                 MDLabel:
-                    text: "$34,567"
+                    text: "₹34,567"
                     theme_text_color: "Primary"
                     pos_hint: {"center_x": .45, "center_y": .5}
                     halign: "center"
@@ -84,11 +96,6 @@ MDScreen:
                     bold: True
                     adaptive_height: True
 
-                MDIconButton:
-                    icon: "eye"
-                    color: "grey"
-                    pos_hint: {"right": 1, "top": 1}
-
                 MDIcon:
                     icon: "content-copy"
                     color: "grey"
@@ -106,7 +113,7 @@ MDScreen:
                     allow_copy: True
                     adaptive_height: True
 
-        MDCard
+        MDCard:
             style: "filled"
             pos_hint: {"center_x": .5, "center_y": .3}
             padding: dp(40)
@@ -131,7 +138,7 @@ MDScreen:
                         
                     MDIconButton:
                         icon: "arrow-up-thin"
-                        icon_color: 76/255,76/255,76/255,1
+                        color: "grey"
                         theme_font_size: "Custom"
                         icon_size: "32sp"
                         size_hint: None, None
@@ -142,6 +149,120 @@ MDScreen:
                     text: "Send"
                     theme_text_color: "Secondary"
                     pos_hint: {"center_x": .1, "center_y": .26}
+                    halign: "center"
+                    color:"grey"
+                    bold: True
+                    adaptive_height: True
+
+                
+                MDCard:
+                    style: "filled"
+                    pos_hint: {"center_x": .3, "center_y": .6}
+                    size_hint: None, None
+                    size: dp(50), dp(50)
+                    radius: [50]
+                    theme_bg_color: "Custom"
+                    md_bg_color: 240/255, 241/255, 243/255, 1
+
+                        
+                    MDIconButton:
+                        icon: "plus"
+                        theme_font_size: "Custom"
+                        color: "grey"
+                        icon_size: "32sp"
+                        size_hint: None, None
+                        size: "50dp", "50dp"
+                        pos_hint: {"center_x": .5, "center_y": .5}
+
+                MDLabel:
+                    text: "Add funds"
+                    theme_text_color: "Secondary"
+                    pos_hint: {"center_x": .3, "center_y": .26}
+                    halign: "center"
+                    color:"grey"
+                    bold: True
+                    adaptive_height: True
+                
+                MDCard:
+                    style: "filled"
+                    pos_hint: {"center_x": .5, "center_y": .6}
+                    size_hint: None, None
+                    size: dp(50), dp(50)
+                    radius: [50]
+                    theme_bg_color: "Custom"
+                    md_bg_color: 240/255, 241/255, 243/255, 1
+
+                        
+                    MDIconButton:
+                        icon: "arrow-down-thin"
+                        color: "grey"
+                        theme_font_size: "Custom"
+                        icon_size: "32sp"
+                        size_hint: None, None
+                        size: "50dp", "50dp"
+                        pos_hint: {"center_x": .54, "center_y": .5}
+
+                MDLabel:
+                    text: "Request"
+                    theme_text_color: "Secondary"
+                    pos_hint: {"center_x": .5, "center_y": .26}
+                    halign: "center"
+                    color:"grey"
+                    bold: True
+                    adaptive_height: True
+
+                MDCard:
+                    style: "filled"
+                    pos_hint: {"center_x": .7, "center_y": .6}
+                    size_hint: None, None
+                    size: dp(50), dp(50)
+                    radius: [50]
+                    theme_bg_color: "Custom"
+                    md_bg_color: 240/255, 241/255, 243/255, 1
+
+                        
+                    MDIconButton:
+                        icon: "swap-horizontal"
+                        color: "grey"
+                        theme_font_size: "Custom"
+                        icon_size: "32sp"
+                        size_hint: None, None
+                        size: "50dp", "50dp"
+                        pos_hint: {"center_x": .54, "center_y": .5}
+
+                MDLabel:
+                    text: "Transfer"
+                    theme_text_color: "Secondary"
+                    pos_hint: {"center_x": .7,"center_y": .26}
+                    halign: "center"
+                    color:"grey"
+                    bold: True
+                    adaptive_height: True
+                
+                    
+                MDCard:
+                    style: "filled"
+                    pos_hint: {"center_x": .9, "center_y": .6}
+                    size_hint: None, None
+                    size: dp(50), dp(50)
+                    radius: [50]
+                    theme_bg_color: "Custom"
+                    md_bg_color: 240/255, 241/255, 243/255, 1
+
+                        
+                    MDIconButton:
+                        icon: "dots-horizontal"
+                        color: "grey"
+                        theme_font_size: "Custom"
+                        icon_size: "32sp"
+                        size_hint: None, None
+                        size: "50dp", "50dp"
+                        pos_hint: {"center_x": .54, "center_y": .5}
+
+                MDLabel:
+                    text: "More"
+                    theme_text_color: "Secondary"
+                    pos_hint: {"center_x": .9, "center_y": .26}
                     halign: "center"
                     color:"grey"
                     bold: True
